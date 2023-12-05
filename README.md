@@ -10,7 +10,7 @@
 
 ## Usage
 ```bash
-git clone https://github.com/BRFabdelilah/Indexation-Deep-Learning.git
+git clone https://github.com/BRFabdelilah/indexation.git
 cd indexation
 pip install -r requirements.txt
 

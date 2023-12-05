@@ -1,4 +1,4 @@
-
+![20231205_132118](https://github.com/BRFabdelilah/indexation/assets/152975419/06da1563-4936-45a8-8057-648b1f43b058)
 
 ## Overview
 - Simple image-based image search engine using Keras + Flask. You can launch the search engine just by running two python scripts.

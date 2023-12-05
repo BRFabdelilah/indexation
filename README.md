@@ -11,7 +11,7 @@
 ## Usage
 ```bash
 git clone https://github.com/BRFabdelilah/Indexation-Deep-Learning.git
-cd sis
+cd indexation
 pip install -r requirements.txt
 
 # Put your image files (*.jpg) on static/img
@@ -24,14 +24,5 @@ python offline.py
 python server.py
 ```
 
-## Advanced: Launch on AWS
-- You can easily launch the search engine server on AWS EC2. Please first open the port 5000 and launch an EC2 instance. Note that you need to create a security group such that the port 5000 is opened.
-- A middle-level CPU instance is sufficient, e.g., m5.large.
-- After you log-in to the instance by ssh, please setup the python environment (e.g., by [anaconda](https://docs.anaconda.com/anaconda/install/linux/)).
-- Run `offline.py` and `server.py`.
-- After you run `python server.py`, you can access the server from your browser via something like 
-
-- (Advanced) If you'd like to deploy the system in a secure way, please consider running the search engine with the usual web server, e.g., uWSGI + nginx.
-- (Advanced) If you want to deploy the system serverlessly,
 
 
